@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:padding="10dp">
+
+    <!--<TextView
+        android:id="@+id/dialog_edit_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改手机号"
+        android:textSize="20sp" />-->
+
+    <LinearLayout
+        android:id="@+id/dialog_edit_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            style="@style/number_textview"/>
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="3"
+            style="@style/number_textview"
+             />
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="4"
+            style="@style/number_textview"/>
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            android:layout_marginLeft="10dp"
+            style="@style/number_textview" />
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            style="@style/number_textview" />
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            style="@style/number_textview" />
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            style="@style/number_textview" />
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            android:layout_marginLeft="10dp"
+            style="@style/number_textview" />
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            style="@style/number_textview" />
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            style="@style/number_textview"/>
+
+        <com.example.kingdee.something.widget.NumberTextView
+            android:text="1"
+            style="@style/number_textview" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="取消"
+            android:id="@+id/dialog_edit_cancel"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/dialog_edit_ensure"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:text="确定"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.kingdee.something.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_new"
+            android:text="new"
+            style="@style/text"
+             />
+
+        <TextView
+            android:id="@+id/tv_zrc"
+            style="@style/text"
+            android:text="ZrcListView" />
+
+        <TextView
+            android:id="@+id/tv_md"
+            style="@style/text"
+            android:text="MaterialDialog" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_smlv"
+            style="@style/text"
+            android:text="SwipeMenuListView" />
+
+        <TextView
+            android:id="@+id/tv_th"
+            style="@style/text"
+            android:text="TabHost" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_skb"
+            style="@style/text"
+            android:text="SoftKeyBoard" />
+
+        <TextView
+            android:id="@+id/tv_dialog"
+            style="@style/text"
+            android:text="Dialog" />
+
+        <TextView
+            android:id="@+id/tv_wave"
+            style="@style/text"
+            android:text="Wave" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/recycleview"
+            style="@style/text"
+            android:text="RecycleView" />
+
+        <TextView
+            android:id="@+id/threeListView"
+            style="@style/text"
+            android:text="ThreeOpen" />
+
+        <TextView
+            android:id="@+id/sandglassview"
+            style="@style/text"
+            android:text="SandGlassView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/sensor"
+            style="@style/text"
+            android:text="Sensor" />
+
+        <TextView
+            android:id="@+id/speak"
+            style="@style/text"
+            android:text="Speak" />
+
+        <TextView
+            android:id="@+id/edit"
+            style="@style/text"
+            android:text="edit" />
+
+        <TextView
+            android:id="@+id/message"
+            style="@style/text"
+            android:text="message" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/save"
+            style="@style/text"
+            android:text="Save" />
+
+        <TextView
+            android:id="@+id/reflect"
+            style="@style/text"
+            android:text="reflect" />
+
+        <TextView
+            android:id="@+id/fragment"
+            style="@style/text"
+            android:text="fragment" />
+
+        <TextView
+            android:id="@+id/barcode"
+            style="@style/text"
+            android:text="barcode" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/scroll"
+            style="@style/text"
+            android:text="scroll" />
+
+        <TextView
+            android:id="@+id/multi_point"
+            style="@style/text"
+            android:text="MultiPoint" />
+
+        <TextView
+            android:id="@+id/game"
+            style="@style/text"
+            android:text="game" />
+
+        <TextView
+            android:id="@+id/surface"
+            style="@style/text"
+            android:text="surface" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/picture"
+            style="@style/text"
+            android:text="picture" />
+
+        <TextView
+            android:id="@+id/cube"
+            style="@style/text"
+            android:text="cube" />
+
+        <TextView
+            android:id="@+id/howmuch"
+            style="@style/text"
+            android:text="howmuch" />
+
+        <TextView
+            android:id="@+id/ball"
+            style="@style/text"
+            android:text="ball" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/what"
+            style="@style/text"
+            android:text="what" />
+
+        <TextView
+            android:id="@+id/matrix"
+            style="@style/text"
+            android:text="Matrix" />
+
+        <TextView
+            android:id="@+id/myview"
+            style="@style/text"
+            android:text="MyView" />
+
+        <TextView
+            android:id="@+id/dragon"
+            style="@style/text"
+            android:text="dragon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/openGL"
+            style="@style/text"
+            android:text="openGL" />
+
+        <TextView
+            android:id="@+id/touchEvent"
+            style="@style/text"
+            android:text="touchEvent" />
+
+        <TextView
+            android:id="@+id/fireWork"
+            style="@style/text"
+            android:text="fireWork" />
+
+        <TextView
+            android:id="@+id/fireWork2"
+            style="@style/text"
+            android:text="fireWork2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/reflectBall"
+            style="@style/text"
+            android:text="reflectBall" />
+
+        <TextView
+            android:id="@+id/big"
+            style="@style/text"
+            android:text="大写" />
+
+    </LinearLayout>
+</LinearLayout>

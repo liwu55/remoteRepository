@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kingdee.something">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/something"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".retrofit.RetrofitPage"></activity>
+
+        <meta-data
+            android:name="TA_APPKEY"
+            android:value="ASK56NY4B3TL" />
+        <meta-data
+            android:name="InstallChannel"
+            android:value="bz" />
+
+        <activity android:name=".new_p.NewActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ZrcActivity" />
+        <activity android:name=".MaterialDialogActivity" />
+        <activity android:name=".SwipeMenuListViewActivity" />
+        <activity android:name=".TabHostActivity" />
+        <activity
+            android:name=".SoftKeyBoardActivity"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".WaveActivity" />
+        <activity android:name=".RecycleViewActivity" />
+        <activity android:name=".ThreeListViewActivity" />
+        <activity android:name=".SandGlassViewActivity" />
+        <activity android:name=".SensorActivity" />
+        <activity android:name=".SpeakActivity" />
+
+        <meta-data
+            android:name="IFLYTEK_APPKEY"
+            android:value="&apos;574ba922&apos;" />
+
+        <activity android:name=".EditActivity" />
+        <activity android:name=".MessageActivity" />
+
+        <receiver android:name=".broadcasrreceiver.MessageReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".SaveActivity" />
+
+        <service
+            android:name=".CameraService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ReflectActivity" />
+        <activity android:name=".MyFragmentActivity" />
+        <activity android:name=".BarcodeActivity" />
+        <activity android:name=".ScrollActivity" />
+        <activity android:name=".MultiPoiontActivity" />
+        <activity android:name=".GameActivity" />
+        <activity android:name=".SurfaceActivity" />
+        <activity android:name=".PictureActivity" />
+        <activity android:name=".CubeActivity" />
+        <activity android:name=".HowMuchActivity" />
+        <activity android:name=".BallActivity" />
+        <activity android:name=".WhatActivity" />
+        <activity android:name=".MatrixActivity" />
+        <activity android:name=".MyViewActivity" />
+        <activity android:name=".DragonActivity" />
+        <activity android:name=".OpenGLActivity" />
+        <activity android:name=".TouchEventActivity" />
+        <activity android:name=".FireWorkActivity" />
+        <activity android:name=".FireWorkActivity2" />
+        <activity android:name=".ReflectBallActivity" />
+        <activity android:name=".BigActivity" />
+        <activity android:name=".widget.meteor.MeteorActivity" />
+        <activity android:name=".EatPage" />
+        <activity android:name=".MSKPage" />
+        <activity android:name=".HandlerPage" />
+        <activity android:name=".DataBindTestActivity" />
+        <activity android:name=".AnimActivity" />
+        <activity android:name=".anim.AnimPage" />
+    </application>
+
+</manifest>
