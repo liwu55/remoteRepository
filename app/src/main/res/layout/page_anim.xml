@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:padding="10dp"
-        android:text="worker2加的文字"
+        android:text="worker2加的文字，worker2改动了"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/start" />
 
